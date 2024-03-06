@@ -1,0 +1,306 @@
+@font-face{
+    font-family: "osama";
+    src: url(Meditation.ttf);
+};
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(#200016,#10001f);
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    position:absolute;
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+header .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style-type: none;
+}
+header ul li a{
+    padding: 6px;
+    border-radius: 20px;
+}
+header ul li a:hover, .active{
+   background-color: #fff;
+   color:#200016;
+   transition: 0.4s;
+}
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.main::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top, #200016,transparent);
+    
+}
+.main img{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+#moon{
+    mix-blend-mode: screen;
+    transform: translateY(50px);
+    width: 40%;
+}
+.Relax{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    transform: translateY(-120px);
+}
+.content{
+    color: #fff;
+    padding: 30px;
+}
+.content h2{
+    font-size: 30px;
+    margin: 20px;
+}
+.content p{
+    margin: 20px;
+    font-weight: bold;
+}
+#moon2{
+    mix-blend-mode: screen;
+    position: relative;
+    right: -48%;
+    width: 40%;
+    transform: translateY(-15%);
+    
+}
+/*--------------------*/
+
+.welcome{
+    font-size: 45px;
+    font-weight: bold;
+    overflow: hidden;
+    color: #fff;
+    }
+      .word2{
+       position: absolute;
+       right: 30%;
+       top: 3%;
+       background-color: rgba(50, 50, 54,0.5);
+       height: 85vh;
+       width: 500px;
+       border-radius: 10px;
+       text-align: center;
+       padding-left: 10px;
+       margin: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-family: "osama";
+    
+      }
+    
+     .uname{
+        font-size: 28px;
+        position: absolute;
+        right: 61.5%;
+        top: 32%;
+        border-radius: 8px;
+        letter-spacing: 2px; 
+        font-family: 'Aladin', cursive;
+font-family: 'Bilbo', cursive;
+font-family: 'Cairo', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Teko', sans-serif;
+    }
+      .yname{
+        position: absolute;
+        left: 31%;
+        top:39%;
+        height: 35px;
+        border-radius: 8px;
+        
+      }
+      .pw{
+        font-size: 28px;
+        position: absolute;
+        right: 61.5%;
+        top: 48%;
+        border-radius: 8px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+        font-family: 'Aladin', cursive;
+font-family: 'Bilbo', cursive;
+font-family: 'Cairo', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Teko', sans-serif;
+      }
+      .ypw{
+        position: absolute;
+        left: 31%;
+        top:57%;
+        height: 35px;
+        border-radius: 8px;
+        
+      }
+      .login2{
+        font-size: 11px;
+        position: absolute;
+        right: 58%;
+        top: 72%;
+        border-radius: 8px;
+        margin-top: 10px;
+        width: 120px;
+      }
+      .container2{
+        font-size: 12px;
+        position: absolute;
+        right: 33%;
+        top: 68%;
+        border-radius: 8px;
+        margin-top: 16px;
+      }
+      .ps{
+        font-size:20px ;
+        font-weight: bold;
+        color: #fff;
+        font-family: 'Aladin', cursive;
+font-family: 'Bilbo', cursive;
+font-family: 'Cairo', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Teko', sans-serif;
+      }
+      /*------------*/
+      .main2{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .main2::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        background: linear-gradient(to top, #200016,transparent);
+    }
+    .main2 img{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    /*-------------*/
+     /* Set a style for all buttons */
+  button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .login{
+    padding: 20px;
+    margin: 5px;
+  }
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    border-radius: 6px;
+    background-color: #460331;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 12%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float:right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
